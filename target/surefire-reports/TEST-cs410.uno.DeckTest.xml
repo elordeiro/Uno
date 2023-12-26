@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cs410.uno.DeckTest" time="0.006" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="jdk.extensions.version" value="17.0.9.0-ea"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/estevaolordeiro/GitLab/cs410-f23/Uno/target/test-classes:/Users/estevaolordeiro/GitLab/cs410-f23/Uno/target/classes:/Users/estevaolordeiro/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/Users/estevaolordeiro/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/estevaolordeiro/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/estevaolordeiro/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/estevaolordeiro/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/estevaolordeiro/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/estevaolordeiro/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/estevaolordeiro/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="java.vendor.url" value="https://www.ibm.com/semeru-runtimes"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Users/estevaolordeiro/Library/Java/JavaVirtualMachines/semeru-17.0.9/Contents/Home/lib/default:/Users/estevaolordeiro/Library/Java/JavaVirtualMachines/semeru-17.0.9/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/estevaolordeiro/GitLab/cs410-f23/Uno/target/surefire/surefirebooter-20231112143655711_3.jar /Users/estevaolordeiro/GitLab/cs410-f23/Uno/target/surefire 2023-11-12T14-36-55_643-jvmRun1 surefire-20231112143655711_1tmp surefire_0-20231112143655711_2tmp"/>
+    <property name="surefire.test.class.path" value="/Users/estevaolordeiro/GitLab/cs410-f23/Uno/target/test-classes:/Users/estevaolordeiro/GitLab/cs410-f23/Uno/target/classes:/Users/estevaolordeiro/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/Users/estevaolordeiro/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/estevaolordeiro/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/estevaolordeiro/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/estevaolordeiro/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/estevaolordeiro/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/estevaolordeiro/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/estevaolordeiro/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/estevaolordeiro"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="/Users/estevaolordeiro/Library/Java/JavaVirtualMachines/semeru-17.0.9/Contents/Home"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="openjdk.methodhandles" value="true"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/estevaolordeiro/GitLab/cs410-f23/Uno"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="surefire.real.class.path" value="/Users/estevaolordeiro/GitLab/cs410-f23/Uno/target/surefire/surefirebooter-20231112143655711_3.jar"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="/Users/estevaolordeiro/Library/Java/JavaVirtualMachines/semeru-17.0.9/Contents/Home/lib/default:/Users/estevaolordeiro/Library/Java/JavaVirtualMachines/semeru-17.0.9/Contents/Home/lib"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.fullversion" value="17.0.9+7&#10;JRE 17 Mac OS X amd64-64-Bit Compressed References 20231017_547 (JIT enabled, AOT enabled)&#10;OpenJ9   - 3ede3b5a4&#10;OMR      - fa7b6ddc7&#10;JCL      - 4024096e8d2 based on jdk-17.0.9+7"/>
+    <property name="java.runtime.version" value="17.0.9+7"/>
+    <property name="user.name" value="estevaolordeiro"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.6"/>
+    <property name="java.runtime.name" value="IBM Semeru Runtime Open Edition"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="java.vendor.version" value="17.0.9.0-m2"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="localRepository" value="/Users/estevaolordeiro/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/ibmruntimes/Semeru-Runtimes/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/gv/_s4jvhpj6tz4zn8n2hmxszbw0000gn/T/"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="com.ibm.system.agent.path" value="/Users/estevaolordeiro/Library/Java/JavaVirtualMachines/semeru-17.0.9/Contents/Home/lib"/>
+    <property name="user.dir" value="/Users/estevaolordeiro/GitLab/cs410-f23/Uno"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="os.encoding" value="UTF-8"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/estevaolordeiro/Library/Java/JavaVirtualMachines/semeru-17.0.9/Contents/Home/lib/default:/Users/estevaolordeiro/Library/Java/JavaVirtualMachines/semeru-17.0.9/Contents/Home/lib:/usr/lib"/>
+    <property name="java.vm.info" value="JRE 17 Mac OS X amd64-64-Bit Compressed References 20231017_547 (JIT enabled, AOT enabled)&#10;OpenJ9   - 3ede3b5a4&#10;OMR      - fa7b6ddc7&#10;JCL      - 4024096e8d2 based on jdk-17.0.9+7"/>
+    <property name="java.vendor" value="IBM Corporation"/>
+    <property name="java.vm.version" value="v0.41.0-release-3ede3b5a4"/>
+    <property name="ibm.system.encoding" value="UTF-8"/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="java.lang.invoke.VarHandle.VAR_HANDLE_GUARDS" value="false"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="drawPileResetTest" classname="cs410.uno.DeckTest" time="0.001"/>
+  <testcase name="drawDiscardAndTopCardTest" classname="cs410.uno.DeckTest" time="0.002"/>
+  <testcase name="Deck" classname="cs410.uno.DeckTest" time="0.001"/>
+</testsuite>
